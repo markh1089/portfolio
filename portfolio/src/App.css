@@ -12,11 +12,22 @@
 
 .header{
   position: relative;
-  background: url(background.jpg) no-repeat;
+  background: url(bck2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
-  
-  opacity: 0.9;
-  filter:opacity(0.9)
+  height: 100vh;  
+  filter: blur(3px);
+  filter: contrast(80%);
+}
+
+.main-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-text h1 {
+  color: aliceblue;
+
 }
