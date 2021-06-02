@@ -12,10 +12,11 @@
 
 .header{
   position: relative;
-  background: url(coding-background.jpg) no-repeat;
+  background: url(background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
-  opacity: 0.7;
-  filter: grayscale(100%);
+  
+  opacity: 0.9;
+  filter:opacity(0.9)
 }
