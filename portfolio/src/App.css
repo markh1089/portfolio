@@ -31,6 +31,8 @@
   color: aliceblue;
 
 }
-Typed {
-  color: aquamarine;
+.typed-text {
+  color: white;
+  font-size: 2rem;
+
 }

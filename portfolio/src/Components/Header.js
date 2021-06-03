@@ -1,5 +1,8 @@
 import React from "react";
 import Typed from "react-typed";
+import { Button} from "react-bootstrap";
+
+
 
 function Header() {
   return (
@@ -9,7 +12,11 @@ function Header() {
         <Typed 
         className='typed-text'
         strings={['html', 'css','Javascript','React','Web Developer']}
+        typeSpeed={40}
+        backSpeed={60}
+        loop
         />
+        <Button variant='Secondary'>Contact Me</Button>
       </div>
     </div>
   );
