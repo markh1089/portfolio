@@ -34,5 +34,9 @@
 .typed-text {
   color: white;
   font-size: 2rem;
+}
 
+.me {
+  border-radius: 50%;
+  width: 300px;
 }
